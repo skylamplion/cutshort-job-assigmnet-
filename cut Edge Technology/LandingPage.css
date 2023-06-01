@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+.navbar{
+    background-color: black !important;
+    width: 100%;
+    position:fixed;
+}
+
+.navbar-nav{
+column-gap: 15px;
+}
+
+.navbar-nav button{
+    border: 1px solid black;
+    border-color: inherit;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+/* segment1 */
+.container-fluid {
+    background-image: url(./assets/Mask\ Group\ 160.png), url(./assets/Mask\ Group\ 156.png);
+    background-position: left, right top;
+    background-repeat: no-repeat,no-repeat;
+    background-size:  30% 100%, 50% 60%;
+    padding: 15px;
+    display: flex;
+    height: 700px;
+    background-color: black;
+    justify-content: center;
+    overflow: inherit;
+  }
+
+  .content {
+    margin-left: 50px;
+    margin-top: 100px;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    display:block;
+    width: 400px;
+    flex-grow: 1;
+  }
+
+  .content button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  .container-fluid img{
+    padding: 10px;
+    justify-content: flex-end;
+    height: 350px;
+    width: 250px;
+    overflow-x: hidden;
+  }
+
+  svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .containerfta {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+
+
+  .drink{
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* segemnt4 */
+
+  .container4 {
+    margin-top: 20px;
+  }
+  
+  .col-sm-4 {
+    padding: 10px;
+  }
+  
+  span {
+    min-height:100px;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 200px;
+  }
+  
+  .segment4span1{
+    background-image: url(./assets/Mask\ Group\ 160.png), url(./assets/Mask\ Group\ 156.png);
+    background-position: left, right;
+    background-repeat: no-repeat,no-repeat;
+    background-size:  30% 100%, 50% 100%;
+    justify-content: center;
+    overflow: inherit;
+  }
+
+  @media (max-width: 576px) {
+    .col-sm-4 {
+      flex-basis: 100%;
+    }
+  }
+
+
+
+  
+  /* segment5 */
+
+  .segemnt5{
+    background-image: url(./assets/Mask\ Group\ 163.png);
+    background-size: cover;
+    overflow: inherit;
+  }
+  .segment5para{
+    background-image: url(./assets/Mask\ Group\ 160.png), url(./assets/Mask\ Group\ 156.png);
+    background-position: left, right top;
+    background-repeat: no-repeat,no-repeat;
+    background-size:  50% 100%, 50% 60%;
+    justify-content: center;
+    overflow: inherit;
+  }
